@@ -1,0 +1,60 @@
+
+FoamFile
+{
+    version 2.0;
+    format ascii;
+    class polyBoundaryMesh;
+    location "0/polyMesh";
+    object boundary;
+}
+7(
+
+    leftwall
+    {
+        nFaces 2500;
+        startFace 4279243;
+        type wall;
+    }
+
+    rightwall
+    {
+        nFaces 2500;
+        startFace 4281743;
+        type wall;
+    }
+
+    frontwall
+    {
+        nFaces 2500;
+        startFace 4284243;
+        type wall;
+    }
+
+    backwall
+    {
+        nFaces 2500;
+        startFace 4286743;
+        type wall;
+    }
+
+    bottomwall
+    {
+        nFaces 2500;
+        startFace 4289243;
+        type wall;
+    }
+
+    topwall
+    {
+        nFaces 2500;
+        startFace 4291743;
+        type wall;
+    }
+
+    disk
+    {
+        nFaces 114978;
+        startFace 4294243;
+        type wall;
+    }
+)
